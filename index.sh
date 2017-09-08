@@ -21,4 +21,4 @@ if [ "$REMOTE" == "" ]; then
   exit 1
 fi
 
-ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -N -R "$REMOTE_PORT:localhost:$LOCAL_PORT" "$REMOTE"
+ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=240 -N -R "$REMOTE_PORT:localhost:$LOCAL_PORT" "$REMOTE"
