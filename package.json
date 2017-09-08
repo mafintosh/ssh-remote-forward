@@ -1,0 +1,21 @@
+{
+  "name": "ssh-remote-forward",
+  "version": "0.0.0",
+  "description": "Script that makes it easy to login over ssh to your local machine",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "bin": {
+    "ssh-remote-forward": "./index.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/ssh-remote-forward.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/ssh-remote-forward/issues"
+  },
+  "homepage": "https://github.com/mafintosh/ssh-remote-forward"
+}
