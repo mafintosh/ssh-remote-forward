@@ -1,6 +1,6 @@
 {
   "name": "ssh-remote-forward",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script that makes it easy to login over ssh to your local machine",
   "main": "index.js",
   "dependencies": {},
