@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 REMOTE_PORT=2200
 LOCAL_PORT=22
 IDENTITY=""
